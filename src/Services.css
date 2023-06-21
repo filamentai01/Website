@@ -1,0 +1,75 @@
+
+.services-container{
+    background: #F5F5F5;
+}
+
+.services-button-container{
+    margin-right: 24px;
+}
+
+.services-container .services{
+    width: 183.75px;
+    height: 114.38px;
+}
+
+.services-container .btn{
+    background: #FFFAFA;
+    border: 4px solid #013096;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.services-container .selected{
+    color: #FFFAFA;
+    background-color: #013096;
+    border-color: #013096;
+}
+
+.services-container .btn:hover {
+    background: #FFFAFA;
+    border: 4px solid #013096;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.services-container .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: #FFFAFA;
+    background-color:  #013096;
+    border-color:  #013096;
+}
+.services-container .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: #FFFAFA;
+    background-color: #013096;
+    border-color: #013096;
+}
+
+.services-container button:focus:not(:focus-visible) {
+    outline: 0;
+    color: #FFFAFA;
+    background-color: #013096;
+    border-color: #013096;
+}
+
+.services-container .content-area{
+    width: 100%;
+    height: 96%;
+    padding: 30px;
+    background: #FFFAFA;
+    border: 4px solid #013096;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.services-container .content-img{
+
+    width: 100%;
+    margin-bottom: 10px;
+}
+.services-container .content-header{
+    text-align: left;
+}
+
+.services-container .content-text{
+    text-align: justify;
+}
+

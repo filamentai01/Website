@@ -1,0 +1,21 @@
+.accordion-data{
+    text-align: justify;
+}
+
+.accordion-button {
+    color: #080808;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    color: #013096;
+    background-color: transparent
+  }
+
+  .analytics-heading{
+    text-align: left;
+    padding-left: 20px;
+  }

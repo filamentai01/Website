@@ -1,0 +1,92 @@
+.banner_img{
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+   opacity: 0.6;
+   
+}
+
+.banner_img_mobile{
+    width: 100%;
+    height: 208px;
+    object-fit: cover;
+   opacity: 0.6;
+   
+}
+
+.container-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dark-overlay {
+    background: black;
+  }
+
+.banner-container{
+        position: relative;
+        text-align: center;
+        color: white;
+}
+
+.banner-heading {
+    position: absolute;
+    top: 200px;
+    color: #FFFAFA;
+    text-align: left;
+
+}
+
+.banner-content {
+    position: absolute;
+    top: 320px;
+    color: #FFFAFA;
+    text-align: left;
+
+}
+
+.banner-button {
+    position: absolute;
+    top: 400px;
+    color: #FFFAFA;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11.875px 28.125px;
+    gap: 10px;
+    background: #013096 !important;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+
+.banner-button-mobile{
+    position: absolute;
+    top: 220px;
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 7.43496px 17.6091px;
+gap: 3.91px;
+background: #013096;
+border-radius: 3.91314px;
+color: #FFFAFA;
+cursor: pointer;
+}
+
+.banner-heading-mobile {
+    position: absolute;
+    top: 100px;
+    color: #FFFAFA;
+    text-align: left;
+
+}
+
+.banner-content-mobile {
+    position: absolute;
+    top: 180px;
+    color: #FFFAFA;
+    text-align: left;
+
+}

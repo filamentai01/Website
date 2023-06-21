@@ -1,0 +1,46 @@
+.aboutus_section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.aboutus_section_mobile {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.aboutus_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_container {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.aboutus_image {
+    width: 490px;
+    height: 335px;
+}
+
+.aboutus_image_mobile{
+    width: 195.51px;
+height: 200px;
+}
+.aboutus_info {
+    text-align: justify;
+}
+
+.aboutus_heading {
+    text-align: left;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #080808;
+    margin-bottom: 3rem;
+}

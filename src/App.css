@@ -1,0 +1,300 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.font-face-body {
+  font-family: "Manrope";
+  font-style: normal;
+font-weight: 400;
+font-size: 12.5px;
+line-height: 20px;
+color: #3B3C36;
+
+}
+
+.font-face-subtext{
+  font-family: "Manrope";
+  font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color: #3B3C36;
+}
+
+.font-face-icon-des{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFAFA;
+}
+
+.font-face-heading{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #080808;
+  
+}
+
+.font-face-forms{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #080808;
+}
+
+.font-face-placeholder{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8.75px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #828282;  
+}
+
+.font-face-footer-heading{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #FFFAFA;
+}
+
+.font-face-footer-content{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+  color: #FFFAFA;
+}
+
+.font-face-button{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: 17px;
+color: #FFFAFA;
+}
+
+.font-face-button-link{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: 17px;
+}
+
+.font-face-play-bold{
+  font-family: 'PlayBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.5px;
+  line-height: 50px;
+color: #FFFAFA;
+
+}
+
+.font-face-play-regular{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFAFA;
+}
+
+.font-face-title{
+  font-family: 'PlayBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.5px;
+  line-height: 25px;
+  /* or 67% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+color: #080808;
+}
+
+.font-face-subtitle{
+  font-family: 'PlayBold';
+  font-style: normal;
+font-weight: 700;
+font-size: 18.75px;
+line-height: 20px;
+color: #000000;
+}
+
+.font-face-description{
+  font-family: 'PlayBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.font-face-play-bold-mobile{
+  font-family: 'PlayBold';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+}
+
+.font-face-play-regular-mobile{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 19px;
+}
+
+.font-face-button-mobile{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+}
+
+.font-face-title-mobile{
+  font-family: 'PlayBold';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+}
+
+.font-face-subtext-mobile{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+color: #3B3C36;
+}
+
+.font-face-subtitle-mobile{
+  font-family: 'PlayBold';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 26px;
+color: #000000;
+}
+
+.font-face-body-mobile{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+color: #3B3C36;
+}
+
+.font-face-icon-des-mobile{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 8.46535px;
+line-height: 11px;
+text-align: center;
+color: #FFFAFA;
+}
+
+.font-face-forms-mobile{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px; 
+  letter-spacing: 0.05em;  
+  color: #080808;
+}
+
+.font-face-placeholder-mobile{
+  
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #828282;
+}
+
+.font-face-footer-heading-mobile{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 25px;
+letter-spacing: 0.05em;
+color: #080808;
+}
+
+.font-face-footer-content-mobile{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 20px;
+color: #080808;
+
+}

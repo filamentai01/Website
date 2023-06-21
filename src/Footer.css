@@ -1,0 +1,36 @@
+.footer-content{
+    background: #fffafa;
+    padding-top: 75px;
+    cursor: pointer;
+}
+
+.footer-content-mobile{
+    background: #fffafa;
+    padding-top: 43px;
+    cursor: pointer;
+}
+
+.footer-heading{
+    color: #000000;
+    text-align: left;
+    cursor: pointer;
+}
+.footer-heading-mobile{
+    text-align: left;
+    cursor: pointer;
+}
+
+.footer-content-text{
+    color: #000000;
+    text-align: left;
+    cursor: pointer;
+}
+
+.footer-content-text-mobile{
+    text-align: left;
+    cursor: pointer;
+}
+
+.footer-icons{
+    margin-right: 27px;
+}
